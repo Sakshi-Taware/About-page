@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+	margin:0px;
+	padding:2px;
+	box-sizing: border-box;
+	font-family: 'Georgia', sans-serif;
+}
+.section{
+	width: 100%;
+	min-height: 130vh;
+	background:url("home2.jpg");;
+}
+.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top: 100px;
+}
+.content-section {
+	float: left;
+	width: 55%;
+}
+
+.image-section{
+	
+	width:80%;
+}
+.image-section img{
+	width: 100%;
+	height: 20%;
+        padding:2px;
+}
+.content-section .title:hover{
+
+background: Celadon;  
+ transform: scale(0.70);
+  box-shadow: 5px 5px 15px rgba(0,0,0,1.0);  
+        color: rgb(59, 59, 59);  
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.content-section .content h3{
+        padding:4px;
+        display: flex;
+	margin-top: 20px;
+	color:maroon;
+	font-size: 21px;
+
+          
+}
+
+
+.content-section .content p{
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.content-section .content .button{
+	margin-top: 30px;
+}
+.content-section .content .button a{
+	background-color: #3d3d3d;
+	padding:12px 40px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+        background: Celadon;  
+        transform: scale(0.85);
+        box-shadow: 5px 5px 15px rgba(0,0,0,1.0);  
+	background-color: #a52a2a;
+	color:#fff;
+}
+.content-section .social{
+	margin: 40px 40px;
+}
+.content-section .social i{
+	color:#a52a2a;
+	font-size: 30px;
+	padding:0px 10px;
+}
+.content-section .social i:hover{
+	color:#3d3d3d;
+        background: Celadon;  
+  transform: scale(1.00);
+  box-shadow: 5px 5px 15px rgba(0,0,0,1.0);  
+   color: rgb(59, 59, 59); 
+}
+@media screen and (max-width: 768px){
+	.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+}
+.content-section{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+}
+.image-section{
+	float:none;
+	width:100%;
+
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin:auto;
+}
+.content-section .title{
+	text-align: center;
+	font-size: 19px;
+}
+.content-section .content .button{
+	text-align: center;
+}
+.content-section .content .button a{
+	padding:9px 30px;
+}
+.content-section .social{
+	text-align: center;
+}
+
+}
+
+.image-section img:hover
+{
+background: Celadon;  
+  transform: scale(1.16);
+  box-shadow: 5px 5px 15px rgba(0,0,0,1.0);  
+   color: rgb(59, 59, 59);  
+}
+
+content-section.title.h1:hover
+{
+background: Celadon;  
+  transform: scale(1.00);
+  box-shadow: 5px 5px 15px rgba(0,0,0,1.0);  
+   color: rgb(59, 59, 59);  
+}
+
+h1
+{
+color:maroon;
+}
+   
+
+.p
+{
+font-family:Garamond,serif;
+}
+
+
